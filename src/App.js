@@ -7,6 +7,7 @@ import ProtectedRoute from './components/ProtectedRoute';
 import Landing from './pages/Landing';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Planes from './pages/Planes';
 import UserDashboard from './pages/user/UserDashboard';
 import BrowseWorkshops from './pages/user/BrowseWorkshops';
 import WorkshopDetail from './pages/user/WorkshopDetail';
@@ -23,6 +24,7 @@ function AppRoutes() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Landing />} />
+        <Route path="/planes" element={<Planes />} />
         <Route path="/login" element={<Login />} />
         <Route path="/registro" element={<Register />} />
 
